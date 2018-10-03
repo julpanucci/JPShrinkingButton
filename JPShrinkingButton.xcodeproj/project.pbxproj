@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4318CB69216415AA002D7C5E /* JPShrinkingButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4318CB5F216415AA002D7C5E /* JPShrinkingButton.framework */; };
 		4318CB6E216415AA002D7C5E /* JPShrinkingButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4318CB6D216415AA002D7C5E /* JPShrinkingButtonTests.swift */; };
 		4318CB70216415AA002D7C5E /* JPShrinkingButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4318CB62216415AA002D7C5E /* JPShrinkingButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43306BB82164195B005B207A /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43306BB4216418E4005B207A /* Quick.framework */; };
+		43306BB92164195B005B207A /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43306BB3216418E4005B207A /* Nimble.framework */; };
+		43306BBD21641C79005B207A /* JPShrinkingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43306BBC21641C79005B207A /* JPShrinkingButton.swift */; };
+		43306BBF21641EE4005B207A /* MockUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43306BBE21641EE4005B207A /* MockUIButton.swift */; };
+		43306BC121641FAB005B207A /* MockUIViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43306BC021641FAB005B207A /* MockUIViewAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +27,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4318CB5F216415AA002D7C5E /* JPShrinkingButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JPShrinkingButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4318CB62216415AA002D7C5E /* JPShrinkingButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPShrinkingButton.h; sourceTree = "<group>"; };
 		4318CB63216415AA002D7C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4318CB68216415AA002D7C5E /* JPShrinkingButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPShrinkingButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4318CB6D216415AA002D7C5E /* JPShrinkingButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPShrinkingButtonTests.swift; sourceTree = "<group>"; };
 		4318CB6F216415AA002D7C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43306BB3216418E4005B207A /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		43306BB4216418E4005B207A /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		43306BB7216418E4005B207A /* JPShrinkingButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JPShrinkingButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43306BBA2164195B005B207A /* JPShrinkingButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPShrinkingButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43306BBC21641C79005B207A /* JPShrinkingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPShrinkingButton.swift; sourceTree = "<group>"; };
+		43306BBE21641EE4005B207A /* MockUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUIButton.swift; sourceTree = "<group>"; };
+		43306BC021641FAB005B207A /* MockUIViewAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUIViewAnimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4318CB69216415AA002D7C5E /* JPShrinkingButton.framework in Frameworks */,
+				43306BB82164195B005B207A /* Quick.framework in Frameworks */,
+				43306BB92164195B005B207A /* Nimble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,17 +65,10 @@
 			children = (
 				4318CB61216415AA002D7C5E /* JPShrinkingButton */,
 				4318CB6C216415AA002D7C5E /* JPShrinkingButtonTests */,
-				4318CB60216415AA002D7C5E /* Products */,
+				43306BB2216418E3005B207A /* Frameworks */,
+				43306BBA2164195B005B207A /* JPShrinkingButtonTests.xctest */,
+				43306BB7216418E4005B207A /* JPShrinkingButton.framework */,
 			);
-			sourceTree = "<group>";
-		};
-		4318CB60216415AA002D7C5E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4318CB5F216415AA002D7C5E /* JPShrinkingButton.framework */,
-				4318CB68216415AA002D7C5E /* JPShrinkingButtonTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		4318CB61216415AA002D7C5E /* JPShrinkingButton */ = {
@@ -73,6 +76,7 @@
 			children = (
 				4318CB62216415AA002D7C5E /* JPShrinkingButton.h */,
 				4318CB63216415AA002D7C5E /* Info.plist */,
+				43306BBC21641C79005B207A /* JPShrinkingButton.swift */,
 			);
 			path = JPShrinkingButton;
 			sourceTree = "<group>";
@@ -80,10 +84,29 @@
 		4318CB6C216415AA002D7C5E /* JPShrinkingButtonTests */ = {
 			isa = PBXGroup;
 			children = (
+				43306BC221642120005B207A /* Mocks */,
 				4318CB6D216415AA002D7C5E /* JPShrinkingButtonTests.swift */,
 				4318CB6F216415AA002D7C5E /* Info.plist */,
 			);
 			path = JPShrinkingButtonTests;
+			sourceTree = "<group>";
+		};
+		43306BB2216418E3005B207A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43306BB3216418E4005B207A /* Nimble.framework */,
+				43306BB4216418E4005B207A /* Quick.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43306BC221642120005B207A /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				43306BBE21641EE4005B207A /* MockUIButton.swift */,
+				43306BC021641FAB005B207A /* MockUIViewAnimator.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,7 +138,7 @@
 			);
 			name = JPShrinkingButton;
 			productName = JPShrinkingButton;
-			productReference = 4318CB5F216415AA002D7C5E /* JPShrinkingButton.framework */;
+			productReference = 43306BB7216418E4005B207A /* JPShrinkingButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4318CB67216415AA002D7C5E /* JPShrinkingButtonTests */ = {
@@ -125,6 +148,7 @@
 				4318CB64216415AA002D7C5E /* Sources */,
 				4318CB65216415AA002D7C5E /* Frameworks */,
 				4318CB66216415AA002D7C5E /* Resources */,
+				43306BBB21641972005B207A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -133,7 +157,7 @@
 			);
 			name = JPShrinkingButtonTests;
 			productName = JPShrinkingButtonTests;
-			productReference = 4318CB68216415AA002D7C5E /* JPShrinkingButtonTests.xctest */;
+			productReference = 43306BBA2164195B005B207A /* JPShrinkingButtonTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -148,6 +172,7 @@
 				TargetAttributes = {
 					4318CB5E216415AA002D7C5E = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					4318CB67216415AA002D7C5E = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -162,7 +187,7 @@
 				en,
 			);
 			mainGroup = 4318CB55216415AA002D7C5E;
-			productRefGroup = 4318CB60216415AA002D7C5E /* Products */;
+			productRefGroup = 4318CB55216415AA002D7C5E;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -189,11 +214,30 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43306BBB21641972005B207A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4318CB5A216415AA002D7C5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43306BBD21641C79005B207A /* JPShrinkingButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +246,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4318CB6E216415AA002D7C5E /* JPShrinkingButtonTests.swift in Sources */,
+				43306BBF21641EE4005B207A /* MockUIButton.swift in Sources */,
+				43306BC121641FAB005B207A /* MockUIViewAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +385,7 @@
 		4318CB74216415AA002D7C5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -346,6 +393,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = JPShrinkingButton/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -356,6 +407,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Panucci.JPShrinkingButton;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +416,7 @@
 		4318CB75216415AA002D7C5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -371,6 +424,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = JPShrinkingButton/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -389,8 +446,13 @@
 		4318CB77216415AA002D7C5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7YD979N9GQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = JPShrinkingButtonTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -407,8 +469,13 @@
 		4318CB78216415AA002D7C5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7YD979N9GQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = JPShrinkingButtonTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
