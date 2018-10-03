@@ -377,6 +377,17 @@ class JPShrinkingButtonSpec: QuickSpec {
                         }
                     }
                 }
+
+                describe("when .toggleAnimation()") {
+                    beforeEach {
+                        uut?.toggleAnimation()
+                    }
+
+                    it("fal") {
+                        expect(uut?.isShrunk).to(beTrue())
+                    }
+                }
+
             }
         }
     }
