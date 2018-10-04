@@ -33,7 +33,7 @@ public class JPShrinkingButton: UIView {
         }
     }
 
-    public private(set) var isShrunk = false
+    private(set) var isShrunk = false
 
     //MARK: - Internal Variables
 
