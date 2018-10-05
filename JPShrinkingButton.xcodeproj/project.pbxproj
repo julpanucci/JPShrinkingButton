@@ -14,6 +14,16 @@
 		43306BBD21641C79005B207A /* JPShrinkingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43306BBC21641C79005B207A /* JPShrinkingButton.swift */; };
 		43306BBF21641EE4005B207A /* MockUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43306BBE21641EE4005B207A /* MockUIButton.swift */; };
 		43306BC121641FAB005B207A /* MockUIViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43306BC021641FAB005B207A /* MockUIViewAnimator.swift */; };
+		434127352167CD450029BD9C /* JPShrinkingButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 43306BB7216418E4005B207A /* JPShrinkingButton.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		434127392167CF300029BD9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43807F212167C5980095ED2D /* AppDelegate.swift */; };
+		4341273A2167CF340029BD9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43807F252167C5980095ED2D /* Main.storyboard */; };
+		4341273B2167CF390029BD9C /* JPShrinkingButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43306BB7216418E4005B207A /* JPShrinkingButton.framework */; };
+		43807F222167C5980095ED2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43807F212167C5980095ED2D /* AppDelegate.swift */; };
+		43807F242167C5980095ED2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43807F232167C5980095ED2D /* ViewController.swift */; };
+		43807F272167C5980095ED2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43807F252167C5980095ED2D /* Main.storyboard */; };
+		43807F292167C59A0095ED2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43807F282167C59A0095ED2D /* Assets.xcassets */; };
+		43807F2C2167C59A0095ED2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43807F2A2167C59A0095ED2D /* LaunchScreen.storyboard */; };
+		43807F312167C64F0095ED2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43807F232167C5980095ED2D /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +34,28 @@
 			remoteGlobalIDString = 4318CB5E216415AA002D7C5E;
 			remoteInfo = JPShrinkingButton;
 		};
+		434127362167CD450029BD9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4318CB56216415AA002D7C5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4318CB5E216415AA002D7C5E;
+			remoteInfo = JPShrinkingButton;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		434127382167CD450029BD9C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				434127352167CD450029BD9C /* JPShrinkingButton.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4318CB62216415AA002D7C5E /* JPShrinkingButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPShrinkingButton.h; sourceTree = "<group>"; };
@@ -38,6 +69,14 @@
 		43306BBC21641C79005B207A /* JPShrinkingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPShrinkingButton.swift; sourceTree = "<group>"; };
 		43306BBE21641EE4005B207A /* MockUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUIButton.swift; sourceTree = "<group>"; };
 		43306BC021641FAB005B207A /* MockUIViewAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUIViewAnimator.swift; sourceTree = "<group>"; };
+		43807F1F2167C5980095ED2D /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43807F212167C5980095ED2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43807F232167C5980095ED2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43807F262167C5980095ED2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43807F282167C59A0095ED2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43807F2B2167C59A0095ED2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43807F2D2167C59A0095ED2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43807F352167C8170095ED2D /* JPShrinkingButtonTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = JPShrinkingButtonTests.xctest; path = "../../Library/Developer/Xcode/DerivedData/JPShrinkingButton-ckjqmcprsnhqjqfqyvdpflvzuwci/Build/Products/Debug-iphonesimulator/JPShrinkingButtonTests.xctest"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +96,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		43807F1C2167C5980095ED2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4341273B2167CF390029BD9C /* JPShrinkingButton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -65,9 +112,11 @@
 			children = (
 				4318CB61216415AA002D7C5E /* JPShrinkingButton */,
 				4318CB6C216415AA002D7C5E /* JPShrinkingButtonTests */,
+				43807F202167C5980095ED2D /* Example */,
 				43306BB2216418E3005B207A /* Frameworks */,
 				43306BBA2164195B005B207A /* JPShrinkingButtonTests.xctest */,
 				43306BB7216418E4005B207A /* JPShrinkingButton.framework */,
+				43807F1F2167C5980095ED2D /* Example.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +143,7 @@
 		43306BB2216418E3005B207A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				43807F352167C8170095ED2D /* JPShrinkingButtonTests.xctest */,
 				43306BB3216418E4005B207A /* Nimble.framework */,
 				43306BB4216418E4005B207A /* Quick.framework */,
 			);
@@ -107,6 +157,19 @@
 				43306BC021641FAB005B207A /* MockUIViewAnimator.swift */,
 			);
 			path = Mocks;
+			sourceTree = "<group>";
+		};
+		43807F202167C5980095ED2D /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				43807F212167C5980095ED2D /* AppDelegate.swift */,
+				43807F232167C5980095ED2D /* ViewController.swift */,
+				43807F252167C5980095ED2D /* Main.storyboard */,
+				43807F282167C59A0095ED2D /* Assets.xcassets */,
+				43807F2A2167C59A0095ED2D /* LaunchScreen.storyboard */,
+				43807F2D2167C59A0095ED2D /* Info.plist */,
+			);
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +223,25 @@
 			productReference = 43306BBA2164195B005B207A /* JPShrinkingButtonTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		43807F1E2167C5980095ED2D /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43807F302167C59A0095ED2D /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				43807F1B2167C5980095ED2D /* Sources */,
+				43807F1C2167C5980095ED2D /* Frameworks */,
+				43807F1D2167C5980095ED2D /* Resources */,
+				434127382167CD450029BD9C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				434127372167CD450029BD9C /* PBXTargetDependency */,
+			);
+			name = Example;
+			productName = Example;
+			productReference = 43807F1F2167C5980095ED2D /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -177,6 +259,9 @@
 					4318CB67216415AA002D7C5E = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
+					43807F1E2167C5980095ED2D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 				};
 			};
 			buildConfigurationList = 4318CB59216415AA002D7C5E /* Build configuration list for PBXProject "JPShrinkingButton" */;
@@ -185,6 +270,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 4318CB55216415AA002D7C5E;
 			productRefGroup = 4318CB55216415AA002D7C5E;
@@ -193,6 +279,7 @@
 			targets = (
 				4318CB5E216415AA002D7C5E /* JPShrinkingButton */,
 				4318CB67216415AA002D7C5E /* JPShrinkingButtonTests */,
+				43807F1E2167C5980095ED2D /* Example */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4341273A2167CF340029BD9C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +297,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43807F1D2167C5980095ED2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43807F2C2167C59A0095ED2D /* LaunchScreen.storyboard in Resources */,
+				43807F292167C59A0095ED2D /* Assets.xcassets in Resources */,
+				43807F272167C5980095ED2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +335,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				434127392167CF300029BD9C /* AppDelegate.swift in Sources */,
+				43807F312167C64F0095ED2D /* ViewController.swift in Sources */,
 				43306BBD21641C79005B207A /* JPShrinkingButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +351,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		43807F1B2167C5980095ED2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43807F242167C5980095ED2D /* ViewController.swift in Sources */,
+				43807F222167C5980095ED2D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -259,7 +368,31 @@
 			target = 4318CB5E216415AA002D7C5E /* JPShrinkingButton */;
 			targetProxy = 4318CB6A216415AA002D7C5E /* PBXContainerItemProxy */;
 		};
+		434127372167CD450029BD9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4318CB5E216415AA002D7C5E /* JPShrinkingButton */;
+			targetProxy = 434127362167CD450029BD9C /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43807F252167C5980095ED2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43807F262167C5980095ED2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43807F2A2167C59A0095ED2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43807F2B2167C59A0095ED2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4318CB71216415AA002D7C5E /* Debug */ = {
@@ -489,6 +622,44 @@
 			};
 			name = Release;
 		};
+		43807F2E2167C59A0095ED2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YD979N9GQ;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Panucci.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43807F2F2167C59A0095ED2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YD979N9GQ;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Panucci.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -515,6 +686,15 @@
 			buildConfigurations = (
 				4318CB77216415AA002D7C5E /* Debug */,
 				4318CB78216415AA002D7C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43807F302167C59A0095ED2D /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43807F2E2167C59A0095ED2D /* Debug */,
+				43807F2F2167C59A0095ED2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
