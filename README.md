@@ -49,11 +49,14 @@ Works just like any normal UIButton where you can set titles, images, etc.
 
 ```swift
 button = JPShrinkingButton(frame: buttonFrame)
+
 button?.setTitle("Send Message", for: .normal)
 button?.setImage(#imageLiteral(resourceName: "message.png"), for: .normal)
 button?.tintColor = .white
 button?.backgroundColor = #colorLiteral(red: 0.1764705926, green: 0.4980392158, blue: 0.7568627596, alpha: 1)
 button?.addTarget(self, action: #selector(showAlert), for: .touchUpInside)
+
+view.addSubview(button!)
 ```
 
 ### Animations
