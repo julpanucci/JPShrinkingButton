@@ -1,8 +1,5 @@
 # JPShrinkingButton
 
-
-[![GitHub releases](https://img.shields.io/github/release/Julp04/JPShrinkingButton.svg)](https://github.com/Julp04/JPShrinkingButton/releases)
-
 ![Alt text](https://github.com/Julp04/JPShrinkingButton/blob/master/JPShrinkingButton.gif)
 
 ## Example
@@ -77,8 +74,6 @@ func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity
       }
 }
 ```
-
-
 
 
 ## Author
